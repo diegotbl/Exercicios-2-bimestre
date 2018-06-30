@@ -1,0 +1,16 @@
+  Identifique no Projeto do Grupo situações onde os princípios SOLID
+poderiam ser (ou foram) aplicados.
+
+  Liskov Substitution:
+
+  No projeto do primeiro bimestre (Meteoritos) nós utilizamos
+esse conceito, por exemplo, nas classes Asteroid e nas subclasses SmallAsteroid,
+MediumAsteroid e BigAsteroids. Essas subclasses ampliaram as funcionalidades da
+superclasse Asteroid.
+
+  Interface Segregation:
+
+  No projeto do primeiro bimestre (Meteoritos) nós utilizamos
+esse conceito, na classe Ship, que implementou a nave, mas foi criada outra
+classe Player para o jogador para evitar que a classe Ship ficasse muito
+poderosa.
